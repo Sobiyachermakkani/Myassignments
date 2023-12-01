@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization">
+
+<parameter name="username" value="uName"></parameter>
+<parameter name="password" value="pWord"></parameter>
+<parameter name="email" value="eMail"></parameter>
+<parameter name="phoneno" value="pNo"></parameter>
+
+  <test thread-count="5" name="RedHat">
+    <classes>
+      <class name="week6.day1.RedHatPortal"/>
+    </classes>
+  </test> <!-- RedHat -->
+</suite> <!-- Parameterization -->
